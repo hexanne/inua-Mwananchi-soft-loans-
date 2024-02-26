@@ -180,7 +180,7 @@ function back2(){
 location.replace("loans2.html");
 };
 function back3(){
-location.replace("loans.html");
+location.replace("index.html");
 };
 function back4() {
 document.getElementById("ios").style.display ="block";
