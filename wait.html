@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="loans.css">
+<script src="loans.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+    .loader {
+    border: 0px solid cyan;
+    border-radius: 50%;
+    box-shadow:4px 0px 3px 2px  #008080;
+    border-top: 5px solid cyan;
+    margin-left:40%;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+    }
+    
+    /* Safari */
+    @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    12.5% { -webkit-transform: rotate(45deg); }
+    25% { -webkit-transform: rotate(90deg); }
+    37.5% { -webkit-transform: rotate(135deg); }
+    50% { -webkit-transform: rotate(180deg); }
+    62.5% { -webkit-transform: rotate(225deg); }
+    75% { -webkit-transform: rotate(270deg); }
+    87.5% { -webkit-transform: rotate(315deg); }
+    100% { -webkit-transform: rotate(360deg); }
+    }
+    
+    @keyframes spin {
+    0% {transform: rotate(0deg); }
+    12.5% {transform: rotate(45deg); }
+    25% {transform: rotate(90deg); }
+    37.5% {transform: rotate(135deg); }
+    50% {transform: rotate(180deg); }
+    62.5% {transform: rotate(225deg); }
+    75% {transform: rotate(270deg); }
+    87.5% {transform: rotate(315deg); }
+    100% {transform: rotate(360deg); }
+    }
+    </style>
+</head>
+<body onload="wai()">
+<div class="divv" >
+<div class=" loader"></div>
+</div>
+
+</body>
+</html>

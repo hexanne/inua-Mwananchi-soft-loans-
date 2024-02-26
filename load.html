@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>loading</title>
+    <style type="text/css" media="all">
+        body {
+        display:grid;
+        place-items:center;
+        background:cyan;
+      }
+       .load {
+         position:absolute;
+         width:22pc;
+         left:5.6pc;
+         top:15pc;
+         aspect-ratio:4/4;
+         }
+         
+         .l1,.l2,.l3,.l4 {
+          width:12px;
+          height:12px;
+          background:red;
+          display:flex;
+          position:absolute;
+          margin:45px;
+          border-radius:50%;
+          justify-content:space-between;
+          border:2px solid red;
+         }
+         .l1 {
+           position:absolute;
+           left:4pc;
+           animation:lone 2s infinite;
+         }
+         .l2 {
+           position:absolute;
+           left:6pc;
+          animation:ltwo 2s infinite;
+         }
+         .l3 {
+           position:absolute;
+           left:8pc;
+          animation:lthree 2s infinite;
+         }
+         .l4 {
+           position:absolute;
+           left:10pc;
+           animation:lfour 2s infinite;
+         }
+         
+         @keyframes lone {
+          0%{
+            transform:translateY(12px);
+          }
+          50%{
+            transform:translateY(0px);
+          }
+          100%{
+            transform:translateY(-12px);
+          }
+         }
+         
+         @keyframes ltwo {
+          0%{
+            transform:translateY(12px);
+          }
+          50%{
+            transform:translateY(0px);
+          }
+          100%{
+            transform:translateY(-12px);
+          }
+         }
+         
+         @keyframes lthree {
+          0%{
+            transform:translateY(12px);
+          }
+          50%{
+            transform:translateY(0px);
+          }
+          100%{
+            transform:translateY(-12px);
+          }
+         }
+         
+         @keyframes lfour {
+          0%{
+            transform:translateY(12px);
+          }
+          50%{
+            transform:translateY(0px);
+          }
+          100%{
+            transform:translateY(-12px);
+          }
+         }
+         
+    </style>
+  </head>
+  <body>
+    <div class="load">
+      <span class="l1"></span>
+      <span class="l2"></span>
+      <span class="l3"></span>
+      <span class="l4"></span>
+    </div>
+  </body>
+</html>

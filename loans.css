@@ -1,0 +1,115 @@
+body {
+color:#008080;
+}
+
+header  {
+padding:12px;
+color:#008080;
+border-bottom:2px solid #008080;
+text-align:center;
+}
+
+.div {
+margin-top:2in;
+text-align:center;
+}
+
+.divv {
+margin-top:4in;
+text-align:center;
+}
+
+div {
+backdrop-filter:blur(34px);
+text-align:center;
+}
+
+button {
+height:33px;
+width:100%;
+color:white;
+border:white;
+border-radius:20px;
+background:#008080;
+}
+
+button:hover  {
+height:33px;
+width:100%;
+color:white;
+border:2px solid #008080;
+color:#008080;
+background:transparent;
+}
+
+label {
+font-size:21px;
+float:left;
+}
+
+#gree {
+float:left;
+margin-left:1in;
+}
+
+.inputt {
+border: 2px solid #f0f0f0;
+border-radius: 4px;
+display: block;
+width: 4.5in;
+height:15pc;
+padding: 10px;
+outline:none;
+font-size: 20px;
+}
+
+.input {
+border: 2px solid #f0f0f0;
+border-radius: 4px;
+display: block;
+width: 4.5in;
+padding: 10px;
+outline:none;
+font-size: 20px;
+}
+
+::placeholder,#reqq1 {
+float:left;
+}
+
+tr {
+color:#008080;
+padding:42px;
+margin:25px;
+width:100%;
+}
+
+td, th {
+text-align:center;
+padding:12px;
+}
+
+td {
+width:3in;
+}
+
+#steen, #simp {
+display:none;
+}
+
+select {
+padding:12px;
+width:2in; 
+}
+
+#logo {
+margin-top:37px;
+width:63px;
+height:63px;
+}
+
+#logo1 {
+margin-top:37px;
+width:83px;
+height:83px;
+}
